@@ -1,25 +1,17 @@
 package Lab3;
 
-import java.awt.*;
-
 public class Rectangle extends Shape {
-    private double width;
-    private double height;
+    private double width, height;
 
     public Rectangle(String color, double width, double height) {
-        super(color);
+        super(color); // Викликаємо конструктор батьківського класу Shape
         this.width = width;
         this.height = height;
     }
 
     @Override
-    public double calculateArea() {
+    public double calcArea() {
         return width * height;
     }
-
-    @Override
-    public void draw(Graphics g, int x, int y) {
-        g.setColor(parseColor());
-        g.fillRect(x, y, (int) width, (int) height);
-    }
 }
+
