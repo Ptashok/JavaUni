@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Lab1 {
     public static void main(String[] args) {
-        String input = "abc def ghi bac qwerty";
+        String input = "abc def krt ghi bac qwerty";
         String[] result = findWordsWithIncreasingCodes(input);
 
         // Вывод результата
