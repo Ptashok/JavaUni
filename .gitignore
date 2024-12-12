@@ -1,0 +1,59 @@
+# Скомпільовані файли класів
+*.class
+
+# Логи
+*.log
+
+# Артефакти збірки
+*.jar
+*.war
+*.ear
+
+# Налаштування IDE
+/.idea/
+/*.iml
+.vscode/
+/*.classpath
+/.project
+/.settings/
+
+# Папки збірки
+/bin/
+/target/
+/out/
+
+# Тимчасові файли
+*.tmp
+*.swp
+*.bak
+*.pid
+*.seed
+*.orig
+*.rej
+
+# Файли залежностей
+lib/
+
+# Файли операційної системи
+.DS_Store
+Thumbs.db
+
+# Контейнери
+*.dockerfile
+
+# Інші системні файли
+*.lock
+*.env
+
+# Інші середовища
+node_modules/
+*.pyc
+*.ipynb_checkpoints
+
+# Виняток: залишити важливі файли конфігурації
+!.gitignore
+# Ігнорувати файли в директорії resources/data
+resources/data/
+
+# Ігнорувати файл passengers.dat
+passengers.dat
